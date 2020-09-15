@@ -20,10 +20,8 @@ class MainClass {
     //return the result of the calculations
     double userResult = Calculations.CalculateTwoNumbers(firstNumber, secondNumber, usersOperator);
 
+    //display reult
     UserMessages.MessageToUser($"The total is: { userResult }");
-
-    //ask the user if they want to calculate something else
-
 
 
     Console.ReadLine();
