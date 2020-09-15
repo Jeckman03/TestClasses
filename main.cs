@@ -9,6 +9,8 @@ class MainClass {
 
     UserMessages.UserMessage($"I hope you are doing well today { firstName }");
 
+    int userAge = GetInformation.GetUserAge();
+
     Console.ReadLine();
   }
 }
