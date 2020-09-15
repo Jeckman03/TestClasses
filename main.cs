@@ -3,13 +3,24 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     
-    UserMessages.Welcome("Welcome to my test page!");
+    //------create an application that handles calculations------
 
-    string firstName = GetInformation.GetUserFirstName();
+    //welcome the user to the application
+    UserMessages.MessageToUser("Welcome to the Simple Console Calculator!");
 
-    UserMessages.UserMessage($"I hope you are doing well today { firstName }");
+    //ask the user if they would like to add, subtract, multiply, or divide
+    UserInformation.UserOperatorChoice();
 
-    int userAge = GetInformation.GetUserAge();
+    //have the user enter the first number
+    double firstNumber = UserInformation.GetFirstNumber();
+
+    //have the user enter the second number
+
+    //return the result of the calculations
+
+    //ask the user if they want to calculate something else
+
+
 
     Console.ReadLine();
   }
